@@ -34,9 +34,6 @@ export default function Home () {
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
-        <Link href='./contact'>
-          go to contact
-        </Link>
         <br />
 
         {/* {allRepos?.map(repo => {
