@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import styles from './ThemeToggle.module.scss'
 
@@ -17,8 +18,8 @@ export default function ThemeToggle () {
     <button type='button' className={styles.button} onClick={() => setActiveTheme(inactiveTheme)}>
       {
       activeTheme === 'light'
-        ? <span className={styles.moon}>🌙</span>
-        : <span className={styles.sun}>☀️</span>
+        ? <span className={styles.moon}><Image src='/dark.svg' alt='light icon' width={50} height={50} /></span>
+        : <span className={styles.sun}><Image src='/light.svg' alt='light icon' width={50} height={50} /></span>
       }
     </button>
   )

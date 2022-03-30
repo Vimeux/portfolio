@@ -10,11 +10,12 @@
   border: 0;
   cursor: pointer;
   margin: 15px;
+  background: none;
 }
 
 .moon {
   position: absolute;
-  background: #073455;
+  // background: #073455;
   width: var(--toggle-width);
   height: var(--toggle-height);
   padding: var(--toggle-padding);
@@ -24,7 +25,7 @@
 
 .sun {
   position: absolute;
-  background: rgb(238, 238, 238);
+  // background: rgb(238, 238, 238);
   width: var(--toggle-width);
   height: var(--toggle-height);
   padding: var(--toggle-padding);
